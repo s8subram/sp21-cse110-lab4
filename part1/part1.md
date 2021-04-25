@@ -37,3 +37,8 @@
       false - true is cast to 1, and 1 != 2  
       true - Boolean(2) returns true, so the equality holds
   15. === is strict equality, which means that it will only return true if the two operands are of the same type and also equal. On the other hand, == allows for recasting of types when checking for equality.
+  16. See other file
+  17. Result: [2, 4, 6]  
+      To start with, the for loop will iterate through for each element in array. On each run through the loop, it pushes to the end of newArr the output of callback() called on the ith element of array. We see that callback is a function which returns double its input, so newArr will have pushed to its end twice the value of the corresponding position in array. Thus, newArr will have, in order, all the elements of array, doubled.
+  18. See other file
+  19. It outputs a 1, followed by a 4, and then around 1000 3 before the subsequent 2. Afterwards, the 1000 3 to 1 2 pattern continues.
