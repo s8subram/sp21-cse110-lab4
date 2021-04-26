@@ -1,5 +1,5 @@
 1. The bug was that the two numbers were being retrieved as strings, which means that the + operator acted as string concatenation rather than numeric addition.
-2. This problem can be fixed by casting num1 and num2 into numbers after retrieval, as seen in the [screenshot](part3-1-fixed.png)
+2. This problem can be fixed by casting num1 and num2 into numbers after retrieval, as seen in the [screenshot](part3-fixed.png)
 3. citylots.json
 4. part2.js
 5. 11.7 MB
